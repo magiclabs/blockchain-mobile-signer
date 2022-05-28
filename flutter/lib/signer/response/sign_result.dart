@@ -1,6 +1,6 @@
 import 'package:json_annotation/json_annotation.dart';
 
-part './sign_result.g.dart';
+part 'sign_result.g.dart';
 
 @JsonSerializable(explicitToJson: true)
 class SignResult {
