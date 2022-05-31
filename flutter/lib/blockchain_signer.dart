@@ -1,3 +1,3 @@
-library blockchain_mobile_signer;
+library blockchain_signer;
 
 export 'signer/remote/remote_signer.dart';
