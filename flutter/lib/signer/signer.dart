@@ -5,7 +5,6 @@ import 'package:blockchain_signer/signer/response/signed_result.dart';
 /// This is not yet the final version yet. Anything would be subjected to change
 ///
 abstract class Signer {
-
   Future<SignedResult> sign(String op, Uint8List bytes);
 
   String? get publicKey;
@@ -14,4 +13,3 @@ abstract class Signer {
 
 // <Bool>verifySignature
 }
-

@@ -1,7 +1,8 @@
 name: blockchain_signer
-description: A new Flutter package project.
-version: 0.0.1
-homepage: https://github
+description: A flutter universal blockchain signer protocol for third-party library to enable Remote signing and third part wallet provider
+version: 0.1.0
+homepage: https://github.com/magiclabs/blockchain-mobile-signer
+repository: https://github.com/magiclabs/blockchain-mobile-signer
 
 environment:
   sdk: ">=2.16.2 <3.0.0"

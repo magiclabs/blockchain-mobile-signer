@@ -13,7 +13,11 @@ class SignedResult {
   String bytes; // Original bytes
   String sbytes; // bytes + hex signature
 
-  SignedResult({required this.bytes, required this.sig, required this.prefixSig, required this.sbytes});
+  SignedResult(
+      {required this.bytes,
+      required this.sig,
+      required this.prefixSig,
+      required this.sbytes});
 
   factory SignedResult.fromJson(Map<String, dynamic> json) =>
       _$SignedResultFromJson(json);
