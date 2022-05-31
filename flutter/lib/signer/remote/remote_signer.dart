@@ -1,5 +1,5 @@
 import 'dart:typed_data';
-import 'package:blockchain_signer/signer/signer.dart';
+import 'package:blockchain_mobile_signer/signer/signer.dart';
 import '../response/signed_result.dart';
 
 /// Remote Sign

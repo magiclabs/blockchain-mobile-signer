@@ -16,7 +16,7 @@ class SignedResult {
   SignedResult({required this.bytes, required this.sig, required this.prefixSig, required this.sbytes});
 
   factory SignedResult.fromJson(Map<String, dynamic> json) =>
-      _$SignResultFromJson(json);
+      _$SignedResultFromJson(json);
 
-  Map<String, dynamic> toJson() => _$SignResultToJson(this);
+  Map<String, dynamic> toJson() => _$SignedResultToJson(this);
 }
